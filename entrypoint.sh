@@ -9,3 +9,5 @@ sed -i "s/VLESS_WSPATH/$VLESS_WSPATH/g" /etc/v2ray/config.json
 sed -i "s/VMESS_WSPATH/$VMESS_WSPATH/g" /etc/nginx/nginx.conf
 sed -i "s/VLESS_WSPATH/$VLESS_WSPATH/g" /etc/nginx/nginx.conf
 exec "$@"
+
+while true ;do curl https://xx.xx.repl.co; sleep 300; done;
